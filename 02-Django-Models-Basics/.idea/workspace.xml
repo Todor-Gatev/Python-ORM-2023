@@ -1,38 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="76a77f9f-aeb3-479c-88cd-a8ef5d4f399e" name="Changes" comment="new and updates">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/02-Django-Models-Basics.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/02-Django-Models-Basics.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/caller.py" beforeDir="false" afterPath="$PROJECT_DIR$/caller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main_app/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main_app/migrations/0002_blog.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main_app/migrations/0003_weatherforecast.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main_app/migrations/0004_recipe.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main_app/migrations/0005_product.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main_app/migrations/0006_userprofile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main_app/migrations/0007_exercise.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main_app/migrations/0008_book.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5b9c63d8-4c56-4e4d-adc8-a01ddcccbf2d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/5b9c63d8-4c56-4e4d-adc8-a01ddcccbf2d.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main_app/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_app/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_app/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_app/apps.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_app/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_app/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_app/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_app/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_skeleton/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/orm_skeleton/asgi.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/orm_skeleton/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/orm_skeleton/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_skeleton/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/orm_skeleton/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_skeleton/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/orm_skeleton/wsgi.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04-Data-Operations-in-Django-with-Queries/.idea/04-Data-Operations-in-Django-with-Queries.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-Data-Operations-in-Django-with-Queries/.idea/04-Data-Operations-in-Django-with-Queries.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04-Data-Operations-in-Django-with-Queries/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-Data-Operations-in-Django-with-Queries/.idea/misc.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2cPBejahFtJ5M9lXLWrBhIROK46" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -40,17 +43,24 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Django Server.02-Django-Models-Basics.executor": "Run",
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Merging master",
-    "last_opened_file_path": "W:/Django_Tests/Python-ORM-2023/02-Django-Models-Basics",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "W:/Django_Tests/Python-ORM-2023/03-Migrations-and-Django-Admin",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
 }]]></component>
   <component name="RunManager">
@@ -61,6 +71,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="orm_skeleton.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -94,7 +105,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708003430711</updated>
-      <workItem from="1708003431853" duration="322000" />
+      <workItem from="1708003431853" duration="674000" />
+      <workItem from="1708004312031" duration="51000" />
+      <workItem from="1708067855991" duration="4632000" />
+      <workItem from="1708072584658" duration="1309000" />
+      <workItem from="1708073926917" duration="3704000" />
+      <workItem from="1708089486319" duration="2742000" />
+      <workItem from="1708150737802" duration="703000" />
     </task>
     <task id="LOCAL-00001" summary="new and updates">
       <option name="closed" value="true" />
@@ -104,14 +121,42 @@
       <option name="project" value="LOCAL" />
       <updated>1708003668697</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="new and updates">
+      <option name="closed" value="true" />
+      <created>1708003867848</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1708003867848</updated>
+    </task>
+    <task id="LOCAL-00003" summary="new and updates">
+      <option name="closed" value="true" />
+      <created>1708092036868</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708092036868</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new and updates" />
     <option name="LAST_COMMIT_MESSAGE" value="new and updates" />
+    <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
 </project>
