@@ -5,6 +5,9 @@ import django
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "orm_skeleton.settings")
 django.setup()
 
-# Import your models here
+from main_app.models import Shoe
+
+print(Shoe.objects.values_list("brand", flat=True).distinct())
+# print(Shoe.objects.values_list("brand", flat=True).distinct().count())
 
 # Create queries within functions
