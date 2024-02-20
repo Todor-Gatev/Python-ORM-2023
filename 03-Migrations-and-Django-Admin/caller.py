@@ -7,7 +7,9 @@ django.setup()
 
 from main_app.models import Shoe
 
-print(Shoe.objects.values_list("brand", flat=True).distinct())
-# print(Shoe.objects.values_list("brand", flat=True).distinct().count())
+print(Shoe.objects.values_list("brand", flat=True).distinct())  # <QuerySet ['nike', 'addidas']>
+# print(Shoe.objects.values_list("brand", flat=True))  # <QuerySet ['nike', 'addidas', 'nike']>
+# print(Shoe.objects.values_list("brand"))  # <QuerySet [('nike',), ('addidas',), ('nike',)]>
+# print(Shoe.objects.values_list("brand", flat=True).distinct().count())  # 2
 
 # Create queries within functions
