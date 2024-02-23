@@ -28,5 +28,5 @@ class Migration(migrations.Migration):
 
     operations = [
         migrations.RunPython(create_unique_brands, reverse_code=delete_unique_brands)
-        # Not RunPython(create_unique_brands())
+        # Not RunPython(create_unique_brands())  or reverse_code=delete_unique_brands()
     ]
