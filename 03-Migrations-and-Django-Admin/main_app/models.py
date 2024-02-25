@@ -9,6 +9,7 @@ class Shoe(models.Model):
     size = models.PositiveIntegerField()
 
 
+# class ShoeAdmin(admin.ModelAdmin):
 # makemigrations main_app --name migrate_unique_brands --empty
 class UniqueBrands(models.Model):
     brand_name = models.CharField(max_length=25)
