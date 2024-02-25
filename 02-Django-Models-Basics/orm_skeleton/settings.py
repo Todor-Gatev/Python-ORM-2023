@@ -81,6 +81,7 @@ WSGI_APPLICATION = 'orm_skeleton.wsgi.application'
 #     }
 # }
 
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
