@@ -1,6 +1,5 @@
 from django.db import models
 
-
 # sqlmigrate main_app 0001_initial
 class Shoe(models.Model):
     brand = models.CharField(
