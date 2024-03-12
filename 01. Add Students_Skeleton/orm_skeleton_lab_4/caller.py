@@ -7,6 +7,7 @@ from datetime import date
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "orm_skeleton.settings")
 django.setup()
 
+
 # Import your models
 # Create and check models
 # Run and print your queries
