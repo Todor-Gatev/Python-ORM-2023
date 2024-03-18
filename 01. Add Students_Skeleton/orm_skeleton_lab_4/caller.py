@@ -3,7 +3,6 @@ import django
 from datetime import date
 
 
-
 # Set up Django
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "orm_skeleton.settings")
 django.setup()
